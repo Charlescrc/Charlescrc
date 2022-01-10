@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f7fa;
+    font-family: 'Roboto' , sans-serif;
+    margin: 0;
+}
+.container {
+    display: flex;
+}
+.side {
+    width: 440px;
+    background-color: #fff;
+    height: 100%;
+    min-height: 100vh;
+    border-right: 1px solid #e1e1e1;
+    padding: 0 20px;
+}
+.side .header {
+    background: linear-gradient(262deg, #ff7854, #fd267d);
+    width: 420px;
+    height: 80px;
+    box-shadow: 0 1px 8px 0 rgba(0, 20, 20, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.side .header .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0 1px 8px 0 rgba(0, 20, 20, 0.2);
+}
+.side .header .title {
+    padding: 0 14px;
+    color: #fff;
+    font-weight: 300;
+    text-size-adjust: 10px;
+    box-shadow: 0 1px 8px 0 rgba(0, 20, 20, 0.2);
+    background: linear-gradient(262deg, #ce4d02f5, #c70656);
+    height: 40px;
+    width: 140px;
+    border-radius: 10%;
+    align-items: center;
+    display: flex;
+}
+.side .menu ul {
+    display: flex;
+    padding: 0 20px;
+}
+.side .menu ul li {
+    list-style: none;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.side .menu .active {
+    border-bottom: 3px solid #fd5068;
+    padding-bottom: 2px;
+}
+.side .box {
+    background: linear-gradient(262deg, #ff7854, #fd267d);
+    height: 140px;
+    width: 100px;
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10%;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+.side .header .handbag img {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 1px 8px 0 rgba(0, 20, 20, 0.2);
+    margin-left: 120px;
+    background: linear-gradient(262deg, #d62552f5, #ca5827);
+    size-adjust: 20px;
+    padding: 5px;
+}
+.side .header .shield img {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 1px 8px 0 rgba(0, 20, 20, 0.2);
+    background: linear-gradient(262deg, #d62552f5, #ca5827);
+    margin-left: 25px;
+    padding: 5px;
+}
+.side .pergunta {
+    font-size: 12px;
+    width: 60%;
+    text-align: center;
+    margin-left: 90px;
+}
+.side .relato {
+    color: gray;
+    text-align: center;
+    width: 80%;
+    text-size-adjust: 10px;
+    margin-left: 30px;
+}
+.central .perfil img {
+    align-items: center;
+    display: flex;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px 1px rgba(0, 20, 20, 0.2);
+    height: 400px;
+}
+.painel {
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 400px;
+    margin-left: 400px;
+    display: flex;
+}
+.nome {
+    position:absolute;
+      color: white;
+      text-align: center;
+      top: 50px;
+      width: 250px;
+      height: 30px;
+      margin-left: 775px;
+      margin-top: 350px;
+}
+.idade {
+    position:absolute;
+    color: #fff;
+    margin-top: 405px;
+    margin-left: 955px;
+    font-size: 19px;
+}
+.verificado img {
+    position: absolute;
+    display: flex;
+    width: 21px;
+    margin-top: 423px;
+    margin-left: -156px;
+}
+.status {
+    position:absolute;
+      color: white;
+      text-align: center;
+      top: 50px;
+      width: 250px;
+      height: 30px;
+      margin-left: 800px;
+      margin-top: 396px;
+      font-size: 12px;
+}
+.curso {
+    position:absolute;
+      color: white;
+      text-align: center;
+      top: 50px;
+      width: 250px;
+      height: 30px;
+      margin-left: 835px;
+      margin-top: 415px;
+      font-size: 12px;
+}
+.icons .return img {
+    position: absolute;
+    display: flex;
+    text-justify: auto;
+    margin-top: 517px;
+    margin-left: -287px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 0.5px #fff;
+}
+.icons .x img {
+    position: absolute;
+    display: flex;
+    text-justify: auto;
+    margin-top: 517px;
+    margin-left: -230px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 1px rgb(231, 27, 27);
+}
+.icons .star img {
+    position: absolute;
+    display: flex;
+    text-justify: auto;
+    margin-top: 517px;
+    margin-left: -173px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 1px rgb(27, 139, 231);
+}
+.icons .heart img {
+    position: absolute;
+    display: flex;
+    text-justify: auto;
+    margin-top: 517px;
+    margin-left: -116px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 1px rgb(11, 160, 98);
+}
+.icons .lightning img {
+    position: absolute;
+    display: flex;
+    text-justify: auto;
+    margin-top: 517px;
+    margin-left: -59px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 1px rgb(100, 7, 88);
+}
+.icons .online img {
+    position: absolute;
+    display: flex;
+    width: 8px;
+    margin-top: 460px;
+    margin-left: -281px;
+}
+.icons .left img {
+    margin-top: 670px;
+    margin-left: -490px;
+    width: 25px;
+}
+.icons .right img {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: -410px;
+    width: 25px;
+}
+.icons .up img {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: -320px;
+    width: 25px;
+}
+.icons .down img {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: -172px;
+    width: 25px;
+}
+.icons .enteringarrow img {
+    position: absolute;
+    margin-top: -27px;
+    margin-left: -8px;
+    width: 31px;
+}
+.icons .vazio img {
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 130px;
+    width: 70px;
+}
+.nomenclatura .storie {
+    text-size-adjust: 2px;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: -280px;
+    color: rgb(190, 186, 186);
+}
+.nomenclatura .não {
+    text-size-adjust: 2px;
+    font-size: 15px;
+    margin-top: 550px;
+    margin-left: -460px;
+}
+.nomenclatura .curti {
+    position: absolute;
+    text-size-adjust: 2px;
+    font-size: 15px;
+    margin-top: -48px;
+    margin-left: -380px;
+}
+.nomenclatura .abrirperfil {
+    position: absolute;
+    text-size-adjust: 2px;
+    font-size: 15px;
+    margin-top: -48px;
+    margin-left: -290px;
+}
+.nomenclatura .fecharperfil {
+    position: absolute;
+    text-size-adjust: 2px;
+    font-size: 15px;
+    margin-top: -48px;
+    margin-left: -140px;
+}
+.nomenclatura .superlike {
+    position: absolute;
+    text-size-adjust: 2px;
+    font-size: 15px;
+    margin-top: -48px;
+    margin-left: 30px;
+}
+.nomenclatura .proximafoto {
+    position: absolute;
+    text-size-adjust: 2px;
+    font-size: 15px;
+    margin-top: -48px;
+    margin-left: 203px;
+}
+.nomenclatura .ocultar {
+    position: absolute;
+    font-size: 15px;
+    margin-top: -42px;
+    margin-left: -595px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding:0 8px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
